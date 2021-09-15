@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- It tells the browser whih verion of html we are using, and it also tells the browser to render this file as html5-->
+<html lang="en" dir="ltr">
+<!-- It tells the browser in between opening and closing tag is going to be html code-->
+<!-- it consists of "head" and "body" -- the whole information about the webpage and it also tells the browser how it should handle the webpage(head)-->
+
+<head>
+  <meta charset="utf-8">
+  <!--meta tags tells the browser how to render and dispaly the webpage and also give the information to the search-engine about the content of the website-->
+  <title>Vikram'S Personal site</title>
+  <!--it tell the title of this particular document or a particular page-->
+</head>
+
+<body>
+  <table cellspacing="20">
+    <!--cellspacing-- this attribute defines the size of space betwen two cells, the attribute is applied both horizontally and vertically, to space betn the top of the table and the cells of the first row.-->
+    <tr>
+      <td><img src="images\17.jpg" alt="Vikram's Profile" height="240" width="240"></td>
+      <td><h1>Vikram Kumar</h1>
+      <p><em>Founder and Ceo of <strong>My own Kingdom</strong></em></p></td>
+      <!--difference betn <em> and <i> are-- "em" -the word enclosed between this should be stressed (emphasized) and also it provide more information, but "i" tag only italicize the text-->
+      <!--difference betn <b> and <strong> is also same. "strong" tags conveys meaning while "b" tags only bold the words between this-->
+    </tr>
+  </table>
+
+  <p>I like coding, watching movies based on action, adventure and dramma, somewhere I also like sci-fi movies. I want to become financially freedom at the of 35. I Don't know how but I have to do and this is my only goal in my life.</p>
+  <hr>
+  <h3>Course I Have Completed</h3>
+
+  <!--<ul>-- stands for unorded lists, typically rendered as bullet lists, and <li>-- stands for list item-->
+
+  <li>Full Stack Developer</li>
+  <!-- we will used here nested lists-->
+  <ul>
+    <li><a href="https://drive.google.com/drive/folders/1zvHFORIdlhUyUJDlTh1ue330smUX4Trk">HTML</a></li>
+    <!-- <a> tag is anchor tags and "href"--it provides the link destination. Between the open & closing "a"tag we have link text, so when user clik on the link it goes to desitnation address whcih we have put in "href"-->
+    <li>CSS</li>
+    <li>JS</li>
+    <li>Angular</li>
+  </ul>
+  <li>C++</li>
+  <li>C</li>
+  <h3>Hobbies</h3>
+  <!-- <ol>-- stands. for ordered lists,-->
+  <ol>
+    <li>Criket</li>
+    <!-- we can add attribute to <li> like "start"-- to start fro a particular number, "type"--like we can reprents list by roman number by "type="i"". and so on-->
+    <li>movies</li>
+  </ol>
+  <hr>
+
+  <h3>Skills</h3>
+  <table>
+    <tr>
+      <td>
+        <table cellspacing="10">
+        <tr>
+          <td>Web Development</td>
+          <td>❤❤❤❤</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>❤❤❤</td>
+        </tr>
+        </table>
+    </td>
+      <td><table cellspacing="10">
+      <tr>
+        <td>C++</td>
+        <td>❤❤❤❤</td>
+      </tr>
+      <tr>
+        <td>iOS Development</td>
+        <td>❤</td>
+      </tr>
+      </table></td>
+    </tr>
+  </table>
+  <hr>
+  <!-- nested table-->
+  <!-- Image elements---it is also a self closing tag. In image tag we also need to provide "src" (source)- It can be either url or it can be local image placed in the same directory.-->
+  <img src="https://media.istockphoto.com/photos/urban-building-group-picture-id868532836?s=612x612" alt="sunset images">
+  <!-- here "alt" is used because if image not rendered properly then alt comes into play, It also helps in SEO. to tells search engine what is about-->
+  <!-- HyperText-- is basically a bunch of text document that can be linked together using these hyperlinks.-->
+
+  <table cellspacing="10">
+    <tr>
+      <th>Dates</th>
+      <th>Qualifications</th>
+      <!--"th" th stands for table header.-->
+    </tr>
+    <tr>
+      <td>2013</td>
+      <td>CBSE 10th from Chitra</td>
+    </tr>
+    <tr>
+      <td>2015</td>
+      <td>CBSE 12th form Bokaro</td>
+    </tr>
+  </table>
+  <!-- "table"-- stands for table creation whereas "tr"-- it reprents table row. "td"-- stands for table data. How many data reside in a single row done by "td" elements-->
+  <!--beside from table row or cell(td), table also have header, footer, and body.-->
+  <hr>
+  <!-- Corret format of table is
+  <table>
+    <thead>---it is table header,the above declaration is also right but declaring in this way add more functionality to each sectio--head,body and footer
+    <tr>
+      <th></th>--it used to store data in haeding format, also called header cell.
+    </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td></td>
+      </tr>
+    </tfoot>
+  </table>
+    -->
+
+    <!-- border--this integer attributes defines, in pixels the of frame surrounding the table.-->
+    <!-- Everything betn <table>- open and closing is the actuall content of the table-->
+    <!-- between open and closing <tr> the actual data of the table would go--and this section of code create a single row inside the table >
+      <td>--the actual data between the opening and closing tag-->
+
+  <h3><a href="newpage.html">Achievements</a></h3>
+  <a href="contact-me.html">Contact Me.</a>
+</body>
+
+</html>
